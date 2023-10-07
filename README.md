@@ -13,7 +13,7 @@ Correspondingly, to leverage the coarse-to-fine topology of hierarchical semanti
 
 <div align="center">
 
-<img src="pictures/fig0.png" width="900px">
+<img src="pictures/fig0.png" width="800px">
 </div>
 
 ## 📣 Updates
@@ -26,18 +26,26 @@ Correspondingly, to leverage the coarse-to-fine topology of hierarchical semanti
 https://github.com/jpthu17/GraphMotion/assets/53246557/884a3b2f-cf8b-4cc0-8744-fc6cdf0e23aa
 </div>
 
+To fine-tune the generated results for more fine-grained control, our method can continuously refine the generated motion by modifying the edge weights and nodes of the hierarchical semantic graph.
+<div align="center">
+
+<img src="pictures/fig3.png" width="800px">
+
+<img src="pictures/fig4.png" width="800px">
+</div>
+
 
 ## 🚩 Results
 Comparisons to current state-of-the-art methods on the HumanML3D test set.
 <div align="center">
 
-<img src="pictures/fig1.png" width="900px">
+<img src="pictures/fig1.png" width="800px">
 </div>
 
 Comparisons to current state-of-the-art methods on the KIT test set.
 <div align="center">
 
-<img src="pictures/fig2.png" width="900px">
+<img src="pictures/fig2.png" width="800px">
 </div>
 
 ### Datasets
