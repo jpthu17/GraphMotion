@@ -1,0 +1,22 @@
+denoiser:
+  target: GraphMotion.models.architectures.denoiser.Denoiser
+  params:
+    text_encoded_dim: 768
+    ff_size: 4096
+    num_layers: 17
+    num_heads: 16
+    dropout: 0.1
+    normalize_before: False
+    activation: 'gelu'
+    flip_sin_to_cos: True
+    return_intermediate_dec: False
+    position_embedding: 'learned'
+    arch: trans_enc
+    freq_shift: 0
+    condition: ${model.condition}
+    latent_dim: [ 1, 1024 ]
+    guidance_scale: ${model.guidance_scale}
+    guidance_uncondp: ${model.guidance_uncondp}
+    nfeats: ${DATASET.NFEATS}
+    nclasses: ${DATASET.NCLASSES}
+    ablation: ${TRAIN.ABLATION}
