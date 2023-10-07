@@ -6,6 +6,7 @@
 [![Paper](http://img.shields.io/badge/Paper-TODO-FF6B6B.svg)]()
 </div>
 
+
 We propose hierarchical semantic graphs for fine-grained control over motion generation.
 Specifically, we disentangle motion descriptions into hierarchical semantic graphs including three levels of motions, actions, and specifics.
 Such global-to-local structures facilitate a comprehensive understanding of motion description and fine-grained control of motion generation.
@@ -18,6 +19,17 @@ Correspondingly, to leverage the coarse-to-fine topology of hierarchical semanti
 
 ## 📣 Updates
 * Oct 07 2023: We release the code. However, this code may not be the final version. We may still update it later.
+
+
+## 📕 Architecture
+We factorize motion descriptions into hierarchical semantic graphs including three levels of motions,
+actions, and specifics. Correspondingly, we decompose the text-to-motion diffusion process into three
+semantic levels, which correspond to capturing the overall motion, local actions, and action specifics.
+
+<div align="center">
+
+<img src="pictures/fig5.png" width="800px">
+</div>
 
 ## 😍 Visualization
 ### Qualitative comparison
