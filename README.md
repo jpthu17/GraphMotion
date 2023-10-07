@@ -13,7 +13,7 @@ Correspondingly, to leverage the coarse-to-fine topology of hierarchical semanti
 
 <div align="center">
 
-<img src="pictures/fig0.png" width="600px">
+<img src="pictures/fig0.png" width="900px">
 </div>
 
 ## 📣 Updates
@@ -21,18 +21,23 @@ Correspondingly, to leverage the coarse-to-fine topology of hierarchical semanti
 
 ## 😍 Visualization
 
+<div align="center">
+
+https://github.com/jpthu17/GraphMotion/assets/53246557/884a3b2f-cf8b-4cc0-8744-fc6cdf0e23aa
+</div>
+
 
 ## 🚩 Results
 Comparisons to current state-of-the-art methods on the HumanML3D test set.
 <div align="center">
 
-<img src="pictures/fig1.png" width="600px">
+<img src="pictures/fig1.png" width="900px">
 </div>
 
 Comparisons to current state-of-the-art methods on the KIT test set.
 <div align="center">
 
-<img src="pictures/fig2.png" width="600px">
+<img src="pictures/fig2.png" width="900px">
 </div>
 
 ### Datasets
