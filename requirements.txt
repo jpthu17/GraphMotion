@@ -22,3 +22,4 @@ scikit-image
 spacy
 diffusers==0.14.0
 ftfy
+tensorboard
