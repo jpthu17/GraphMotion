@@ -18,7 +18,7 @@ Correspondingly, to leverage the coarse-to-fine topology of hierarchical semanti
 </div>
 
 ## 📣 Updates
-* Oct 07 2023: We release the code. However, this code may not be the final version. We may still update it later.
+* **[2023/10/07]**: We release the code. However, this code may not be the final version. We may still update it later.
 
 
 ## 📕 Architecture
