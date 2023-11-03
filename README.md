@@ -3,7 +3,7 @@
 # 【NeurIPS'2023 🔥】 Act As You Wish: Fine-grained Control of Motion Diffusion Model with Hierarchical Semantic Graphs
 
 [![Conference](http://img.shields.io/badge/NeurIPS-2023-FFD93D.svg)](https://neurips.cc/Conferences/2023)
-[![Paper](http://img.shields.io/badge/Paper-TODO-FF6B6B.svg)]()
+[![Paper](http://img.shields.io/badge/Paper-arxiv.2311.01015-FF6B6B.svg)](https://arxiv.org/abs/2311.01015)
 </div>
 
 
@@ -261,7 +261,13 @@ TODO
 ## 📌 Citation
 If you find this paper useful, please consider staring 🌟 this repo and citing 📑 our paper:
 ```
-TODO
+@inproceedings{
+jin2023act,
+title={Act As You Wish: Fine-Grained Control of Motion Diffusion Model with Hierarchical Semantic Graphs},
+author={Peng Jin and Yang Wu and Yanbo Fan and Zhongqian Sun and Yang Wei and Li Yuan},
+booktitle={NeurIPS},
+year={2023}
+}
 ```
 
 ## 🎗️ Acknowledgments
