@@ -119,7 +119,7 @@ bash prepare/download_pretrained_models.sh
 ```
 ### 4. Evaluate the model
 
-Please first put the tained model checkpoint path to `TEST.CHECKPOINT` in `configs/config_humanml3d.yaml`.
+Please first put the trained model checkpoint path to `TEST.CHECKPOINT` in `configs/config_humanml3d.yaml`.
 
 Then, run the following command:
 
@@ -247,7 +247,7 @@ python -m train --cfg configs/config_humanml3d.yaml --cfg_assets configs/assets.
 
 ### 3. Evaluate the model
 
-Please first put the tained model checkpoint path to `TEST.CHECKPOINT` in `configs/config_humanml3d.yaml`.
+Please first put the trained model checkpoint path to `TEST.CHECKPOINT` in `configs/config_humanml3d.yaml`.
 
 Then, run the following command:
 
