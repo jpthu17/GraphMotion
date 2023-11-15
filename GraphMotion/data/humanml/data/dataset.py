@@ -404,18 +404,23 @@ class Text2MotionDatasetV2(data.Dataset):
 
             for key in self.data_dict:
                 o_key = key
-                if key[0].isalpha():
-                    key = key[1:]
-                if "_" == key[0]:
-                    key = key[1:]
+                if "_" in key:
+                    key = key[2:]
+
+                flag = 1
                 for _key in graph:
-                    if _key[0].isalpha():
-                        _key = _key[1:]
-                    if "_" == _key[0]:
-                        _key = _key[1:]
-                    if key == _key:
+                    if o_key == _key:
                         self.data_dict[o_key]["text"] = graph[_key]
+                        flag = 0
                         break
+                if flag:
+                    for _key in graph:
+                        o__key = _key
+                        if "_" in _key:
+                            _key = _key[2:]
+                        if key == _key:
+                            self.data_dict[o_key]["text"] = graph[o__key]
+                            break
 
     def reset_max_len(self, length):
         assert length <= self.max_motion_length
