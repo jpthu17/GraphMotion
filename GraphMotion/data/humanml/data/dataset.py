@@ -403,6 +403,7 @@ class Text2MotionDatasetV2(data.Dataset):
                 graph = load_json("datasets/humanml3d/new_train_data.json")
 
             for key in self.data_dict:
+                o_key = key
                 if key[0].isalpha():
                     key = key[1:]
                 if "_" == key[0]:
@@ -413,7 +414,7 @@ class Text2MotionDatasetV2(data.Dataset):
                     if "_" == _key[0]:
                         _key = _key[1:]
                     if key == _key:
-                        self.data_dict[key]["text"] = graph[_key]
+                        self.data_dict[o_key]["text"] = graph[_key]
                         break
 
     def reset_max_len(self, length):
