@@ -18,6 +18,7 @@ Correspondingly, to leverage the coarse-to-fine topology of hierarchical semanti
 </div>
 
 ## 📣 Updates
+* **[2023/11/16]**: I fixed a data load bug that caused performance degradation.
 * **[2023/10/07]**: We release the code. However, this code may not be the final version. We may still update it later.
 
 
