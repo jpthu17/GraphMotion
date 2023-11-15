@@ -403,8 +403,16 @@ class Text2MotionDatasetV2(data.Dataset):
                 graph = load_json("datasets/humanml3d/new_train_data.json")
 
             for key in self.data_dict:
+                if key[0].isalpha():
+                    key = key[1:]
+                if "_" == key[0]:
+                    key = key[1:]
                 for _key in graph:
-                    if key[1:] == _key[1:]:
+                    if _key[0].isalpha():
+                        _key = _key[1:]
+                    if "_" == _key[0]:
+                        _key = _key[1:]
+                    if key == _key:
                         self.data_dict[key]["text"] = graph[_key]
                         break
 
